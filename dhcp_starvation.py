@@ -1,12 +1,3 @@
-# decore the script
-import pyfiglet as fg 
-import termcolor as cl
-text1 = fg.figlet_format(text="DHCP STARVATION", font="slant")
-color_text1 = cl.colored(text=text1, color="blue")
-text2 = fg.figlet_format(text="BY ID 102", font="small")
-color_text2 = cl.colored(text=text2)
-print(color_text1)
-print(color_text2)
 # import the libary and rename it
 import scapy.all as sc 
 print("1000 dhcp discover packet are being sent...")
